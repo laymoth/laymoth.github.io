@@ -1,0 +1,140 @@
+baseURL = "https://xdeveryti.me"
+title   = "Laymoth"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+defaultContentLanguage = "id"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Laymoth"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  # 
+  description = "Welcome, XD!"
+  keywords = ""
+  images = [""]
+
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "Hello, World!"
+
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
+  enableThemeToggle = true
+  enableSharingButtons = true
+  enableGlobalLanguageMenu = true
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = []
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = "$"
+    logoText     = "~/"
+    logoHomeLink = "/"
+
+ [params.portrait]
+   path     = "https://avatars.githubusercontent.com/u/22806461?v=4"
+   alt      = "Avatar"
+   maxWidth = "100px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/rvioleee"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/laymoth"
+
+  [[params.social]]
+    name = "patreon"
+    url  = "https://patreon.com/laymoth"
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mastodon.social/@laymoth"
+  [[params.social]]
+    name = "matrix"
+    url  = "https://matrix.to/#/@laymoth:matrix.org"
+
+[languages]
+  [languages.en]
+    subtitle  = "XD"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.id]
+    subtitle  = "XD"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
