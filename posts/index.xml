@@ -1,4 +1,614 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Laymoth</title><link>https://laymoth.github.io/posts/</link><description>Recent content in Posts on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 09 Apr 2022 10:27:00 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Teori Himpunan &amp; Prinsip Inklusi &amp; Ekslusi</title><link>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</link><pubDate>Sat, 09 Apr 2022 10:27:00 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</guid><description>Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen Himpunan Huruf besar (kapital)
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Laymoth</title><link>https://laymoth.github.io/posts/</link><description>Recent content in Posts on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 26 Jun 2022 19:14:53 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Aljabar Boole</title><link>https://laymoth.github.io/posts/2022/06/aljabar-boole/</link><pubDate>Sun, 26 Jun 2022 19:14:53 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/06/aljabar-boole/</guid><description>Aljabar Boole adalah ilmu yang mempelajari khusus himpunan B yang elemennya hanya dua, yaitu konstanta 1 dan konstanta 0 atau true (T) dan false (F) beserta operasinya. Juga terdapat dua jenis operasi, yaitu : union (+) yang dibaca : atau (OR) dan irisan (.) yang dibaca : dan (AND)
+Asumsi yang berasal dari aksioma klosur (closure) : Setiap elemen a, b, c, … (variabel) adalah anggota B (bernilai 1 atau 0), sehingga: a + b ∈ B dan juga a .</description><content type="html"><![CDATA[<p>Aljabar Boole adalah ilmu yang mempelajari khusus himpunan B yang elemennya
+hanya dua, yaitu konstanta 1 dan konstanta 0 atau true (T) dan false (F) beserta
+operasinya. Juga terdapat dua jenis operasi, yaitu : union (+) yang dibaca : atau
+(OR) dan irisan (.) yang dibaca : dan (AND)<br>
+Asumsi yang berasal dari aksioma klosur (closure) :
+Setiap elemen a, b, c, … (variabel) adalah anggota B (bernilai 1 atau 0),
+sehingga: a + b ∈ B dan juga a . b ∈ B</p>
+<ul>
+<li>
+<p><strong>Aksioma dan prinsip dualitas</strong><br>
+Terdapat lima aksioma (dalil yang kebenarannya tidak perlu dibuktikan lagi),
+yang berpasang-pasangan (prinsip dualitas) yaitu :</p>
+<p>Pertama : Aksioma Komutatif :<br>
+a + b = b + a dan pasangan dualitasnya :<br>
+a . b = b . a [seperti aljabar non Boole]</p>
+<p>Kedua : Aksioma Asosiatif :<br>
+a + ( b + c ) = ( a + b ) + c dan pasangan dualitasnya :<br>
+a . ( b . c ) = ( a . b ) . c [seperti aljabar non Boole]</p>
+<p>Ketiga : Aksioma Distributif :<br>
+a . ( b + c) = (a . b) + (a . c) dan pasangan dualitasnya :<br>
+a + (b . c ) = (a + b) . (a + c) [perlu dibuktikan]</p>
+<p>Keempat : Aksioma Identitas (diri) :<br>
+a + 0 = a dan pasangan dualitasnya :<br>
+a . 1 = a [seperti aljabar non Boole]</p>
+<p>Kelima : Aksioma Komplemen (negasi) :<br>
+a + a’ = 1 dan pasangan dualitasnya :<br>
+a . a’ = 0</p>
+</li>
+<li>
+<p><strong>Prinsip dualitas</strong><br>
+Prinsip dualitas seperti berlaku pada aksioma di atas juga berlaku pada teorema dan hukum atau dalil (di bawah).</p>
+<p>Yang dimaksud dengan prinsip dualitas adalah setiap persamaan Boolean selalu mempunyai pasangannya dengan cara mengganti dua hal, yaitu :</p>
+<ul>
+<li>(.) dengan (+) atau (+) dengan (.) dan</li>
+<li>(0) dengan (1) atau (1) dengan (0).</li>
+</ul>
+</li>
+<li>
+<p><strong>Teorema dan prinsip dualitas</strong><br>
+Terdapat dua teorema yang diturunkan dari aksioma atau teorema sebelumnya</p>
+<p>Pertama, Teorema (1) atau teorema Idempoten :<br>
+a + a = a dan pasangan dualitasnya :<br>
+a . a = a</p>
+<p>Kedua, Teorema (2) atau teorema Konstanta :<br>
+a + 1 = 1 dan pasangan dualitasnya :<br>
+a . 0 = 0</p>
+</li>
+<li>
+<p><strong>Hukum Absorpsi dan de Morgan dan prinsip dualitas</strong>
+Terdapat dua hukum atau dalil yang diturunkan dari aksioma dan teorema, yaitu :</p>
+<p>Pertama, Hukum Absorpsi (Penyerapan) :<br>
+a + (a . b) = a dan pasangan dualitasnya :<br>
+a . (a + b) = a</p>
+<p>Kedua, Hukum de Morgan :<br>
+(a . b)’ = a’ + b’ dan pasangan dualitasnya :<br>
+(a + b)’ = a’ . b’</p>
+<p><strong>Pembuktian : Langsung</strong></p>
+<ul>
+<li>
+<p>Teorema Idempoten (1a) dengan aksioma Identitas, Komplemen,
+Distributif, Komplemen dan Identitas (sebelah kanan)<br>
+a + a = a (dibuktikan)<br>
+a + a = a + 0 (Identitas)<br>
+a + a = a + (a . a’) (Komplemen)<br>
+a + a = (a + a) . (a + a’) (Distributif)<br>
+a + a = (a + a) . (1) (Komplemen)<br>
+a + a = (a + a) (Identitas)</p>
+</li>
+<li>
+<p>Teorema Idempoten (1b) dengan aksioma Identitas, Komplemen,
+Distributif, Komplemen dan Identitas (sebelah kanan)<br>
+a . a = a (dibuktikan)<br>
+a . a = a . 1 (Identitas)<br>
+a . a = a . (a + a’) (Komplemen)<br>
+a . a = (a . a) + (a . a’) (Distributif)<br>
+a . a = (a . a) + (0) (Komplemen)<br>
+a . a = (a . a) (Identitas)</p>
+</li>
+<li>
+<p>Teorema Konstanta (2a) dengan aksioma Komplemen, Asosiatif, teorema<br>
+Idempoten (1a) dan aksioma Komplemen (sebelah kiri)
+a + 1 = 1 (dibuktikan)<br>
+a + (a + a’) = 1 (Komplemen)<br>
+(a + a) + a’ = 1 (Asosiatif)<br>
+a + a&rsquo; = 1 (Idempoten)<br>
+1 = 1 (Komplemen)</p>
+</li>
+<li>
+<p>Teorema Konstanta (2b) dengan aksioma Komplemen, Asosiatif, teorema<br>
+Idempoten (1b) dan aksioma Komplemen (sebelah kiri)<br>
+a . 0 = 0 (dibuktikan)<br>
+a . (a . a’) = 0 (Komplemen)<br>
+(a . a) . a’ = 0 (Asosiatif)<br>
+a . a&rsquo; = 0 (Idempoten)<br>
+0 = 0 (Komplemen)</p>
+</li>
+<li>
+<p>Hukum absorpsi (a) dengan aksioma Identitas, Distributif, teorema<br>
+Konstanta (2a), dan aksioma Identitas. (sebelah kiri)<br>
+a + (a . b) = a (dibuktikan)<br>
+(a . 1) + (a . b) = a (Identitas)<br>
+a . (1 + b) = a (Distributif)<br>
+a . 1 = a (Konstanta)<br>
+a = a (Identitas)</p>
+</li>
+<li>
+<p>Hukum Absorpsi (b) dengan aksioma Identitas, Distributif, teorema<br>
+Konstanta (2b) dan aksioma Identitas (sebelah kiri)<br>
+a . (a + b) = a (dibuktikan)<br>
+(a + 0) . (a + b) = a (Identitas)<br>
+a + (0. b) = a (Distributif)<br>
+a + 0 = a (Konstanta)<br>
+a = a (Identitas)</p>
+</li>
+</ul>
+<p><strong>Pembuktian : Tidak langsung</strong></p>
+<ul>
+<li>
+<p>Hukum de Morgan (a) : (a . b)’ = a’ + b’<br>
+Diketahui : (a .b) .(a .b)’ = 0 (aksioma komplemen-b), buktikan : (a .b) .(a’ + b’) = 0, sehingga secara tidak langsung : (a . b ’) = (a’ + b’)
+(melalui aksioma Distributif, Asosiatif, Komplemen dan teorema
+Konstanta (2b) (sebelah kiri)<br>
+(a . b) . (a’ + b’) = 0 (dibuktikan)<br>
+(a . b) . a’ + (a . b) . b’ = 0 (Distributif)<br>
+(a . a’) . b + a . (b . b’) = 0 (Asosiatif)<br>
+0 . b + a . 0 = 0 (Komplemen)<br>
+0 + 0 = 0 (Konstanta)</p>
+</li>
+<li>
+<p>Hukum de Morgan (b) : (a + b)’ = a’ . b’<br>
+Diketahui : (a + b) + (a + b)’= 1 (aksioma komplemen-a),
+buktikan : (a + b) + (a’ .b’)=1, sehingga
+secara tidak langsung : (a + b)’ = (a’ .b’)<br>
+(melalui aksioma Distributif, Asosiatif, Komplemen dan teorema
+Konstanta (2a) (sebelah kiri)<br>
+(a +b) +(a’ . b’) = 1 (dibuktikan)<br>
+((a + b) + a’) . ((a + b) + b’) = 1 (Distributif)<br>
+((a + a’) + b) . (a + (b + b’)) = 1 (Asosiatif)<br>
+(1 + b) . (a + 1) = 1 (Komplemen)<br>
+1 . 1 = 1 (Konstanta)</p>
+</li>
+</ul>
+<p><strong>Catatan</strong> : Untuk memudahkan operasi distributif, maka misalkan :</p>
+<ul>
+<li>
+<p>a . b = c (untuk pembuktian hukum de Morgan (a)<br>
+(a . b) . (a’ + b’) = 0 menjadi : ( c ) . (a’ + b’) = 0, sehingga :<br>
+( c ) . a’ + ( c ) . b’ = 0 atau : (a . b) . a’ + (a . b) . b’ = 0 … dst</p>
+</li>
+<li>
+<p>a + b = c (untuk pembuktian hukum de Morgan (b)<br>
+(a +b) +(a’ . b’) = 1 menjadi : ( c ) +(a’ . b’) = 1, sehingga :<br>
+(( c ) + a’) . (( c ) + b’) = 1 menjadi : ((a + b) + a’) . ((a + b) + b’) = 1 … dst</p>
+</li>
+</ul>
+<p><strong>Pembuktian substitusi</strong> (melalui asumsi nilai 0 atau 1 dalam bentuk tabel)<br>
+Untuk itu diperlukan tabel nilai hasil operasi union dan irisan terhadap dua konstanta (0 dan 1) dan dua variabel (a dan b)</p>
+<p>Satu konstanta (0 atau 1)</p>
+<table>
+<thead>
+<tr>
+<th>Tabel 0</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0 + 0 atau 0 . 0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tabel 1</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1 + 1 atau 1 . 1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Dua konstanta ( 0 dan 1 )</p>
+<table>
+<thead>
+<tr>
+<th>Tabel union (+)</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0 + 1 atau 1 + 0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tabel irisan (.)</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0 . 1 atau 1 . 0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Dua variabel (a dan b), berdasarkan 4 tabel di atas :</p>
+<table>
+<thead>
+<tr>
+<th>Tabel union (+)</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a</strong></td>
+<td><strong>b</strong></td>
+<td><strong>a + b</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tabel irisan (.)</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a</strong></td>
+<td><strong>b</strong></td>
+<td><strong>a + b</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Aksioma Komutatif, Asosiatif dan Distributif (a) tidak perlu dibuktikan, kecuali Aksioma Distributif (b)</p>
+<p><strong>Pembuktian</strong></p>
+<ul>
+<li>
+<p>Aksioma Distributif (b) :
+a + (b . c ) = (a + b) . (a + c)</p>
+<table>
+<thead>
+<tr>
+<th>Tabel kiri :</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a</strong></td>
+<td><strong>b</strong></td>
+<td><strong>c</strong></td>
+<td><strong>b.c</strong></td>
+<td><strong>a+(b.c)</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Tabel kanan :</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>a</strong></td>
+<td><strong>b</strong></td>
+<td><strong>c</strong></td>
+<td><strong>a+b</strong></td>
+<td><strong>a+c</strong></td>
+<td><strong>(a+b).(a+c)</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><em>Kolom paling kanan tabel kiri dan kanan bernilai sama (terbukti)</em></p>
+</li>
+<li>
+<p>Aksioma Identitas (a) :</p>
+<table>
+<thead>
+<tr>
+<th>a + 0 = a</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>0</td>
+<td>a+0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><em>Kolom a dan kolom a + 0 bernilai sama</em></p>
+</li>
+<li>
+<p>Aksioma Identitas (b) :</p>
+<table>
+<thead>
+<tr>
+<th>a . 1 = a</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>1</td>
+<td>a.1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><em>Kolom a dan kolom a . 1 bernilai sama</em></p>
+</li>
+<li>
+<p>Aksioma Komplemen (a) :</p>
+<table>
+<thead>
+<tr>
+<th>a + a’ = 1</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>a’</td>
+<td>a + a’</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><em>Kolom paling kanan (a + a’) selalu bernilai 1 (terbukti)</em></p>
+</li>
+<li>
+<p>Aksioma Komplemen (b) :</p>
+<table>
+<thead>
+<tr>
+<th>a . a’ = 0</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>a’</td>
+<td>a + a’</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Kolom paling kanan (a + a’) selalu bernilai 0 (terbukti)</em></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content></item><item><title>Teori Himpunan &amp; Prinsip Inklusi &amp; Ekslusi</title><link>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</link><pubDate>Sat, 09 Apr 2022 10:27:00 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</guid><description>Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen Himpunan Huruf besar (kapital)
 Elemen Huruf kecil
 φ Himpunan kosong, himpunan yang tidak memiliki elemen
 U Himpunan universal atau semesta
