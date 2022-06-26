@@ -1,5 +1,5 @@
 ---
-title: "Aljabar Boole"
+title: "Aljabar Boolean"
 date: 2022-06-26T19:14:53+07:00
 toc: false
 images:
@@ -7,7 +7,7 @@ tags:
   - Discrete Structure
 ---
 
-Aljabar Boole adalah ilmu yang mempelajari khusus himpunan B yang elemennya
+Aljabar Boolean adalah ilmu yang mempelajari khusus himpunan B yang elemennya
 hanya dua, yaitu konstanta 1 dan konstanta 0 atau true (T) dan false (F) beserta
 operasinya. Juga terdapat dua jenis operasi, yaitu : union (+) yang dibaca : atau
 (OR) dan irisan (.) yang dibaca : dan (AND)  
@@ -21,11 +21,11 @@ yang berpasang-pasangan (prinsip dualitas) yaitu :
   
   Pertama : Aksioma Komutatif :  
  a + b = b + a dan pasangan dualitasnya :  
- a . b = b . a [seperti aljabar non Boole]  
+ a . b = b . a [seperti aljabar non Boolean]  
    
   Kedua : Aksioma Asosiatif :  
  a + ( b + c ) = ( a + b ) + c dan pasangan dualitasnya :  
- a . ( b . c ) = ( a . b ) . c [seperti aljabar non Boole]  
+ a . ( b . c ) = ( a . b ) . c [seperti aljabar non Boolean]  
    
   Ketiga : Aksioma Distributif :  
  a . ( b + c) = (a . b) + (a . c) dan pasangan dualitasnya :  
@@ -33,7 +33,7 @@ yang berpasang-pasangan (prinsip dualitas) yaitu :
   
   Keempat : Aksioma Identitas (diri) :  
  a + 0 = a dan pasangan dualitasnya :  
- a . 1 = a [seperti aljabar non Boole]  
+ a . 1 = a [seperti aljabar non Boolean]  
   
   Kelima : Aksioma Komplemen (negasi) :  
  a + a’ = 1 dan pasangan dualitasnya :  
