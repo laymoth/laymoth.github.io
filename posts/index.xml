@@ -1,4 +1,87 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Postingan on Laymoth</title><link>https://laymoth.github.io/posts/</link><description>Recent content in Postingan on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 26 Jun 2022 22:04:49 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Relasi</title><link>https://laymoth.github.io/posts/2022/06/relasi/</link><pubDate>Sun, 26 Jun 2022 22:41:20 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/06/relasi/</guid><description>Himpunan Produk Himpunan hasil perkalian dua atau lebih himpunan terbatas, yang elemennya merupakan pasangan elemen dari himpunan-himpunan yang dikalikan dan bergantung pada urutannya. Simbol produk: X
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Postingan on Laymoth</title><link>https://laymoth.github.io/posts/</link><description>Recent content in Postingan on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 26 Jun 2022 22:04:49 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Fungsi</title><link>https://laymoth.github.io/posts/2022/06/fungsi/</link><pubDate>Sun, 26 Jun 2022 23:43:49 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/06/fungsi/</guid><description>Fungsi adalah pemetaan dari suatu himpunan A ke himpunan lain B secara unik (semua elemen pada A harus ada pemetaannya pada B secara unik, dan hasil pemetaan pada B boleh berasal dari lebih dari satu elemen di A).
+Simbol fungsi dari himpunan A ke himpunan B :
+Contoh :
+A = {1,2,3,4,5}
+Fungsi f (a) dalam bentuk himpunan elemen berpasangan &amp;lt;a,f(a)&amp;gt; :
+f = {&amp;lt;1,3&amp;gt;,&amp;lt;2,5&amp;gt;,&amp;lt;3,5&amp;gt;,&amp;lt;4,2&amp;gt;,&amp;lt;5,3&amp;gt;}
+Fungsi Riil Hasil pemetaan fungsi bilangan bulat yang menghasilkan bilangan bulat berbentuk diskrit.</description><content type="html"><![CDATA[<p>Fungsi adalah pemetaan dari suatu himpunan A ke himpunan lain B secara unik (semua elemen pada A harus ada pemetaannya pada B secara unik, dan hasil pemetaan pada B boleh berasal dari lebih dari satu elemen di A).</p>
+<p>Simbol fungsi dari himpunan A ke himpunan B :</p>
+<p><img src="/assets/m3-fungsi.jpg" alt="Fungsi"></p>
+<p>Contoh :<br>
+A = {1,2,3,4,5}<br>
+Fungsi f (a) dalam bentuk himpunan elemen berpasangan &lt;a,f(a)&gt; :<br>
+f = {&lt;1,3&gt;,&lt;2,5&gt;,&lt;3,5&gt;,&lt;4,2&gt;,&lt;5,3&gt;}</p>
+<h4 id="fungsi-riil">Fungsi Riil</h4>
+<p>Hasil pemetaan fungsi bilangan bulat yang menghasilkan bilangan bulat berbentuk diskrit. Pemetaan fungsi bilangan riil yang menghasilkan bilangan riil berbentuk kontinu dengan jumlah elemen yang tidak berhingga.</p>
+<p>Ada empat pembatas fungsi riil<br>
+Interval tertutup : [a,b] = {x : a &lt; x &lt; b}<br>
+Interval terbuka atas : [a,b) = {x : a &lt; x &lt; b}<br>
+Interval terbuka bawah : (a,b] = (x : a &lt; x &lt; b}<br>
+Interval terbuka : (a,b) = {x : a &lt; x &lt; b}<br>
+Fungsi kontinu dapat didekati dengan fungsi diskrit yang diinterpolasi</p>
+<h4 id="komposisi-fungsi">Komposisi Fungsi</h4>
+<p>Komposisi dua fungsi atau lebih yang melibatkan himpunan perantara yang sama akan menghasilkan fungsi baru (fungsi komposisi) yang memetakan elemen himpunan pertama ke himpunan terakhir secara unik.<br>
+Contoh :<br>
+f : A → B; g : B → C; h = g o f atau g(f(a)) : A → C</p>
+<p><img src="/assets/m3-fungsi-komposisi.jpg" alt="FK"></p>
+<p>Misal :<br>
+A = {a,b,c}; B = {x,y,z}; C = {r,s,t}<br>
+f : A → B; g : B → C; h = g o f : A → C
+(g o f)(a) = g(f(a)) = g(y) = t<br>
+(g o f)(b) = g(f(b)) = g (x) = s<br>
+(g o f)(c) = g(f(c)) = g(y) = t<br>
+Cara mengikuti panah :<br>
+a → y → t; b → x → s; c → y → t</p>
+<h4 id="diagram-peta-fungsi-graf-berarah">Diagram peta Fungsi: Graf Berarah:</h4>
+<p>Contoh:<br>
+f : A → B; b : B → A; h : C → B; e : B → C; dan d : A → C<br>
+dapat dibuat dalam bentuk diagram peta sbb :</p>
+<p><img src="/assets/m3-diagram.jpg" alt="Diagram"></p>
+<h4 id="satu-satu-onto-dan-invertibel">Satu-Satu, Onto dan Invertibel</h4>
+<p>Fungsi satu-satu (Injektif) adalah jika setiap elemen yang dipetakan mempunyai peta yang berbeda-beda secara unik<br>
+Fungsi Onto (Surjektif) adalah jika setiap elemen pemetaan adalah elemen pemetaan dari beberapa elemen yang dipetakan<br>
+Fungsi bijektif adalah fungsi satu-satu dan onto sekaligus<br>
+Fungsi invertibel adalah jika f : A → B juga ada g : B → A<br>
+Fungsi konstan adalah jika hasil pemetaan menunjuk ke satu nilai<br>
+Contoh :<br>
+f1 : A → B; f2 : B → C; f3 : C → D dan f4 : D → E, seperti gambar :</p>
+<p><img src="/assets/m3-jenis-fungsi.jpg" alt="Jenis Fungsi"></p>
+<p>Fungsi satu-satu : f1 dan f2<br>
+Fungsi onto : f2 dan f3<br>
+Fungsi bijektif : f2<br>
+Fungsi invertibel : f2<br>
+Fungsi konstan : f4</p>
+<h4 id="fungsi-matematika-dan-ilmu-komputer">Fungsi Matematika dan Ilmu Komputer</h4>
+<p><strong>Fungsi Floor dan Ceiling</strong></p>
+<p><img src="/assets/m3-floor.png" alt="Floor"></p>
+<p><strong>Fungsi Modulus / Aritmatik Modular</strong><br>
+Contoh:<br>
+Modulo 12 : 5 + 8 = 1</p>
+<p><strong>Fungsi Faktorial</strong><br>
+n! = 1.2.3….(n-2).(n-1).n = (n-1)!.n = (n-2)!.(n-1).n dst.<br>
+Contoh:<br>
+n!/(n-1)! = n.(n-1)!/(n-1)! = n</p>
+<p><strong>Fungsi Eksponensial dan Logaritmik</strong><br>
+x = a^m = a.a…..a (m kali); a^0 = 1; a^-m = 1/a^m ; a^3 . a^5 = a ^(3+5) = a^8<br>
+m = logb (x); b = basis</p>
+<h4 id="fungsi-rekursif">Fungsi Rekursif</h4>
+<p>Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri</p>
+<ul>
+<li>Fungsi faktorial : jika n=0, maka n! =1<br>
+Jika n&gt;0, maka n! = n.(n-1)!</li>
+<li>Fungsi (Urutan) Fibonacci: (F)<br>
+Jika n=0 atau n=1, maka Fn = n<br>
+Jika n &gt; 1, maka Fn = Fn-2 + Fn-1</li>
+<li>Fungsi Ackermann : (A) menghasilkan deretan pasangan bilangan bulat positif<br>
+Jika m = 0, maka A(m,n) = n +1<br>
+Jika m ≠ 0, tetapi n = 0, maka A(m,n) = A(m-1,1)<br>
+Jika m ≠ 0 dan n ≠ 0, maka A9m,n) = A(m-1, A(m,n-1))</li>
+</ul>
+<h4 id="kardinalitas">Kardinalitas</h4>
+<p>Kardinalitas adalah jumlah elemen suatu himpunan. Simbol : |X|<br>
+Contoh :<br>
+Kardinalitas koleksi X dari fungsi dari A = {a,b,c} ke B = {1,2,3,4} adalah |X| = n(B) pangkat n(A) = 43 = 64</p>
+]]></content></item><item><title>Relasi</title><link>https://laymoth.github.io/posts/2022/06/relasi/</link><pubDate>Sun, 26 Jun 2022 22:41:20 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/06/relasi/</guid><description>Himpunan Produk Himpunan hasil perkalian dua atau lebih himpunan terbatas, yang elemennya merupakan pasangan elemen dari himpunan-himpunan yang dikalikan dan bergantung pada urutannya. Simbol produk: X
 Secara umum : A X B ≠ B X A
 Contoh:
 A = {1,2,3}, B = {a,b}, C = {x}
