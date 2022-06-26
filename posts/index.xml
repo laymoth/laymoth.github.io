@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Laymoth</title><link>https://laymoth.github.io/posts/</link><description>Recent content in Posts on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 09 Apr 2022 10:27:00 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Teori Himpunan &amp; Prinsip Inklusi &amp; Ekslusi</title><link>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</link><pubDate>Sat, 09 Apr 2022 10:27:00 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</guid><description>Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen Himpunan Huruf besar (kapital)
+Elemen Huruf kecil
+φ Himpunan kosong, himpunan yang tidak memiliki elemen
+U Himpunan universal atau semesta
+A = {1, 2, 3, 4, 5} Himpunan A mempunyai elemen : 1,2,3,4 dan 5
+B = {6, 7, 8, 9, 0}
+A ≠ B
+C = {x: x bilangan bulat, 0 &amp;lt; x &amp;lt; 6}
+A = C Himpunan A sama dengan C, jika elemen A sama dengan elemen C</description><content type="html"><![CDATA[<h4 id="himpunan-sub-himpunan-sub-himpunan-himpunan-himpunan-dan-elemen">Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen</h4>
+<p>Himpunan               Huruf besar (kapital)<br>
+Elemen                   Huruf kecil<br>
+φ                            Himpunan kosong, himpunan yang tidak memiliki elemen<br>
+U                            Himpunan universal atau semesta<br>
+A = {1, 2, 3, 4, 5}   Himpunan A mempunyai elemen : 1,2,3,4 dan 5<br>
+B = {6, 7, 8, 9, 0}<br>
+A ≠ B<br>
+C = {x: x bilangan bulat, 0 &lt; x &lt; 6}<br>
+A = C      Himpunan A sama dengan C, jika elemen A sama dengan elemen C<br>
+1 ∈ A      1 adalah elemen himpunan A, atau 1 kepunyaan A<br>
+1 ∉ B      1 bukan elemen himpunan B, A ≠ B<br>
+D = {7, 9}<br>
+E = { } atau E = φ      E adalah himpunan kosong<br>
+D ⊆ B atau B ⊇ D      D adalah sub-himpunan B atau B mengandung D<br>
+D ⊂ B atau B ⊃ D      D adalah sub-himpunan murni B</p>
+<p>Contoh : simbol himpunan :<br>
+N = himpunan bilangan bulat positif<br>
+Q = himpunan bilangan rasional<br>
+Z = himpunan bilangan bulat<br>
+R = himpunan bilangan riil<br>
+N dapat dijadikan himpunan semesta (U) dari himpunan A, B, D &amp; E</p>
+<h4 id="diagram-venn-komparabel-disjoin">Diagram Venn, Komparabel, Disjoin</h4>
+<p>Himpunan B dan D komparabel, karena D ⊆ B
+Himpunan A dan B disjoin</p>
+<p><img src="/assets/m1-diagramvenn.jpg" alt="Diagram Venn"></p>
+<h4 id="operasi-himpunan-dan-produk">Operasi himpunan dan Produk</h4>
+<p>Union :         A ∪ B = { x : x ∈ A atau x ∈ B}<br>
+Interseksi :   A ∩ B = { x : x ∈ A dan x ∈ B}<br>
+Komplemen (absolut) :     A’ = {x : x ∈ U, x ∉ A}<br>
+Komplemen (relatif) :       A – B = { x : x ∈ A, x ∉ B} (perbedaan A terhadap B)</p>
+<p><img src="/assets/m1-union.jpg" alt="Union dan Interseksi Himpunan"></p>
+<p><img src="/assets/m1-komplemen.jpg" alt="Komplemen Absolut dan Komplemen Relatif"></p>
+<p>Perbedaan simetri A dan B atau A ⊕ B adalah<br>
+(A ∪ B) – (A ∩ B) atau (A – B) ∪ (B – A)<br>
+Jika : A ⊆ B, maka A ∩ B = A dan A ∪ B = B</p>
+<h4 id="hukum-aljabar-himpunan-dan-dualitas">Hukum aljabar himpunan dan Dualitas</h4>
+<p>Hukum de Morgan<br>
+(A ∪ B)’ = A’ ∩ B’ dan (A ∩ B)’ = A’ ∪ B’<br>
+Hukum idempoten:<br>
+A ∪ A = A dan A ∩ A = A<br>
+Hukum asosiatif :<br>
+(A ∪ B) ∪ C = A ∪ (B ∪ C) dan (A ∩ B) ∩ C = A ∩ (B ∩ C)<br>
+Hukum komutatif:<br>
+A ∪ B = B ∪ A dan A ∩ B = B ∩ A<br>
+Hukum distributif :<br>
+A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) dan A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)<br>
+Hukum Identitas<br>
+A ∪ φ = A dan A ∩ U = A<br>
+Hukum Konstanta :<br>
+A ∪ U = U dan A ∩ φ = φ<br>
+Hukum Komplemen :<br>
+A ∪ A’ = U dan A ∩ A’ = φ<br>
+Hukum Absorpsi :<br>
+A ∩ (A ∪ B) = A dan A ∪ (A ∩ B) = A<br>
+Prinsip dualitas : tukar ∩ dengan ∪ dan U dengan φ atau sebaliknya<br>
+Perbedaan simetri : ⊕, memenuhi hukum asosiatif, komutatif, dan distributif</p>
+<h4 id="himpunan-terbatas-dan-prinsip-inklusi-dan-eksklusi-himpunan-terbatas-dan-prinsip-inklusi-dan-eksklusi">Himpunan terbatas dan Prinsip Inklusi dan Eksklusi Himpunan terbatas dan Prinsip Inklusi dan Eksklusi</h4>
+<p>Himpunan terbatas A adalah himpunan A yang jumlah elemennya (n(A)) terbatas<br>
+Prinsip inklusi dan eksklusi dua dan tiga himpunan terbatas yang berbeda:<br>
+n(A ∪ B) = n(A) + n(B) – n(A ∩ B) atau n(A ∩ B) = n(A) + n(B) – n(A ∪ B)<br>
+n(A ∪ B ∪ C) = n(A) + n(B) + n(C) – n(A ∩ B) – n(A ∩ C) – n(B ∩ C) +n(A∩B∩C)</p>
+<h4 id="koleksi">Koleksi</h4>
+<p>Koleksi adalah himpunan dari himpunan
+Contoh :
+K = [{1, 2, 3}, {2, 4}, {3, 5}]</p>
+]]></content></item></channel></rss>

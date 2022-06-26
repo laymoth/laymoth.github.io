@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Discrete Structure on Laymoth</title><link>https://laymoth.github.io/tags/discrete-structure/</link><description>Recent content in Discrete Structure on Laymoth</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 09 Apr 2022 10:27:00 +0700</lastBuildDate><atom:link href="https://laymoth.github.io/tags/discrete-structure/index.xml" rel="self" type="application/rss+xml"/><item><title>Teori Himpunan &amp; Prinsip Inklusi &amp; Ekslusi</title><link>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</link><pubDate>Sat, 09 Apr 2022 10:27:00 +0700</pubDate><guid>https://laymoth.github.io/posts/2022/04/teori-himpunan-prinsip-inklusi-ekslusi/</guid><description>Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen Himpunan Huruf besar (kapital)
+Elemen Huruf kecil
+φ Himpunan kosong, himpunan yang tidak memiliki elemen
+U Himpunan universal atau semesta
+A = {1, 2, 3, 4, 5} Himpunan A mempunyai elemen : 1,2,3,4 dan 5
+B = {6, 7, 8, 9, 0}
+A ≠ B
+C = {x: x bilangan bulat, 0 &amp;lt; x &amp;lt; 6}
+A = C Himpunan A sama dengan C, jika elemen A sama dengan elemen C</description></item></channel></rss>
