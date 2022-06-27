@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: laymoth.github.io
+Token: 485a3d0d0c263655e503487c784f1b40aaae9a4f3080d145c1e1ca1bc6bf2eb9
