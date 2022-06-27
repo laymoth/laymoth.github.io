@@ -4,7 +4,7 @@ date: 2022-06-27T09:05:42+07:00
 toc: false
 images: 
 tags:
-  - Discrete Structure
+  - Matematik Diskrit
 ---
 
 Pohon berakar (pohon) adalah beberapa graf yang terkoneksi seperti path sederhana yang unik dengan tanpa siklus pada verteks yang disebut akar R.  

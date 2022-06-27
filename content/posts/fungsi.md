@@ -4,7 +4,7 @@ date: 2022-06-26T23:43:49+07:00
 toc: false
 images:
 tags:
-  - Discrete Structure
+  - Matematik Diskrit
 ---
 
 Fungsi adalah pemetaan dari suatu himpunan A ke himpunan lain B secara unik (semua elemen pada A harus ada pemetaannya pada B secara unik, dan hasil pemetaan pada B boleh berasal dari lebih dari satu elemen di A).  

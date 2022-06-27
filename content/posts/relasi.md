@@ -4,7 +4,7 @@ date: 2022-06-26T22:41:20+07:00
 toc: false
 images:
 tags:
-  - Discrete Structure
+  - Matematik Diskrit
 ---
 
 #### Himpunan Produk

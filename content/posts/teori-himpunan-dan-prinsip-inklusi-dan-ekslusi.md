@@ -3,7 +3,7 @@ title: "Teori Himpunan & Prinsip Inklusi & Ekslusi"
 date: 2022-04-09T10:27:00+07:00
 toc: false
 tags:
-  - Discrete Structure
+  - Matematik Diskrit
 ---
 
 #### Himpunan, Sub Himpunan, Sub-himpunan, himpunan, himpunan, dan Elemen  

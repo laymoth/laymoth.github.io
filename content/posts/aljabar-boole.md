@@ -4,7 +4,7 @@ date: 2022-06-26T19:14:53+07:00
 toc: false
 images:
 tags:
-  - Discrete Structure
+  - Matematik Diskrit
 ---
 
 Aljabar Boolean adalah ilmu yang mempelajari khusus himpunan B yang elemennya
