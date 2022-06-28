@@ -1,7 +1,6 @@
 ---
 title: "Macam Macam Percabangan Dan Perulangan"
 date: 2022-06-27T21:22:58+07:00
-draft: true
 toc: false
 images:
 tags:
