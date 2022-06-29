@@ -24,7 +24,7 @@ switch(noAbsent)
  case 3 :
  Dodi Sukmawan
  case 4 :
-	Bukan Mahasiswa
+ Bukan Mahasiswa
 </code></pre><h4 id="percabangan-case-when">Percabangan case when</h4>
 <p>Karakteristrik : terdapat pengkodisian tetapi tidak ada percabangan bersarang</p>
 <p>Contoh :</p>
