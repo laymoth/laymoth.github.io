@@ -35,7 +35,7 @@ switch(noAbsent)
  case 3 :
  Dodi Sukmawan
  case 4 :
-	Bukan Mahasiswa
+ Bukan Mahasiswa
 ```
 
 #### Percabangan case when
