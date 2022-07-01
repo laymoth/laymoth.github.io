@@ -35,7 +35,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:title/"
 
 [author]
   name = "Laymoth"
@@ -70,7 +70,7 @@ disableHugoGeneratorInject = false
   disableReadOtherPosts = false
   enableThemeToggle = true
   enableSharingButtons = true
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
   [params.footer]
