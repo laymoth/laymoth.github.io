@@ -5,7 +5,7 @@ theme = "hello-friend-ng"
 defaultContentLanguage = "id"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "dracula"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
