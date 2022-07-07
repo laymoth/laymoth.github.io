@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello, World!"
+  homeSubtitle = "Nocturnal."
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
