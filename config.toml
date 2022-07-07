@@ -108,9 +108,6 @@ disableHugoGeneratorInject = false
     url  = "https://patreon.com/laymoth"
 
   [[params.social]]
-    name = "mastodon"
-    url  = "https://mastodon.social/@laymoth"
-  [[params.social]]
     name = "matrix"
     url  = "https://matrix.to/#/@laymoth:matrix.org"
 
