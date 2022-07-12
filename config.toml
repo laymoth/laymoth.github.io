@@ -97,7 +97,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/rvioleee"
+    url  = "https://twitter.com/alinuxkt"
 
   [[params.social]]
     name = "github"
