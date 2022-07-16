@@ -1,4 +1,4 @@
-baseURL = "https://laymoth.github.io"
+baseURL = "https://laymoth.dev"
 title   = "Laymoth"
 languageCode = "en-us"
 theme = "hello-friend-ng"
