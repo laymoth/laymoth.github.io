@@ -76,7 +76,7 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = true
     rss = false
-    copyright = true
+    copyright = false
     author = true
 
   [params.favicon.color]
