@@ -77,7 +77,7 @@ disableHugoGeneratorInject = false
     trademark = true
     rss = false
     copyright = false
-    author = true
+    author = false
 
   [params.favicon.color]
     mask = "#1b1c1d"
