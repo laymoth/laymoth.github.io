@@ -125,3 +125,8 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
+    
+  [[menu.main]]
+    identifier = "status"
+    name       = "Status"
+    url        = "https://stats.uptimerobot.com/GE9lpIB9MX"
