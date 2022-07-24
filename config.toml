@@ -69,7 +69,7 @@ disableHugoGeneratorInject = false
   #
   disableReadOtherPosts = false
   enableThemeToggle = true
-  enableSharingButtons = true
+  enableSharingButtons = false
   enableGlobalLanguageMenu = false
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
